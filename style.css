@@ -1,0 +1,150 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;0,800;1,200&family=Roboto:wght@300;400&family=Ubuntu&display=swap');
+
+
+body{
+    /* font-family: 'Poppins', sans-serif; */
+    font-family: 'Roboto', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    /* background-color: #f1f1f1; */
+    background-image: url(pexels-stephan-seeber-1261728.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    color: white;
+    margin-top: 0;
+    display: flex;
+    padding: 05px;
+    justify-content: space-between;
+    text-decoration: none;
+    overflow: hidden;
+}
+/* slider css */
+
+
+  /* card css */
+
+  .profile-card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 70vh auto ;
+    padding: 05px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.cover-profile{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.cover-picture{
+    background-color: #666;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+    width: 100%;
+    height: 120px;
+    background-size: cover ;
+    position: relative;
+
+}
+.profile-picture {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: -60px;
+    left: 32%;
+    border: solid #333;;
+    position:relative;
+    align-items: center;
+    display: flex;
+ 
+}
+
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.bio-location{
+    margin: 10px;
+}
+.bio {
+    margin-top: -10px;
+    font-size: 0.9rem;
+    color: #333;
+  
+}
+.location {
+    font-size: 0.75rem;
+    color: #333;
+    margin-top: -10px;
+    
+   
+}
+.join-me-button{
+    margin: 5px;
+    background-color: #4a4abd;
+    color: white;
+    padding: 6px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    border: none;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.social-icons a {
+    color: #333;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 10px;
+    /* padding: 10px; */
+}
+.social-icons a:hover {
+    color: #4a4abd;
+}
+/* .social-icons a .fa-youtube:hover {
+   color: red;
+} 
+.social-icons a .fa-pinterest:hover {
+    color: red;
+ } 
+ /* .social-icons a .fa-instagram:hover {
+    color:rgba(220, 20, 60, 0.678);
+    
+ } */
+/* .social-icons a .fa-facebook:hover {
+    color: rgba(0, 0, 255, 0.849);
+ }
+  .social-icons a .fa-snapchat:hover {
+    color: yellow;
+    /* background-color: #333; */
+   
+ /* }
+ .social-icons a .fa-whatsapp:hover {
+    color: green;
+ }  */ 
+
+/* 
+ @media only screen and (max-width:600px){
+    .profile-card {
+        height: auto;
+    } */
+
+
+ 
