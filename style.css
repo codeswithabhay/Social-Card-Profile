@@ -147,4 +147,51 @@ header{
     } */
 
 
+
+
+    /* Menu.Html Css */
+
+ .profile-card2{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgb(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    height: 50vh  auto;
+    padding: 05px;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+ }
+ .profile-card2 header{
+    
+    border-bottom: #4a4abd solid 2px;
+ }
+ .sub-heading{
+    color:#4a4abd;
+    margin: 35px 0;
+ }
+ .container{
+    margin: 50px 0;
+ }
+ .myportfolio-link{
+    margin: 40px 0 ;
+    text-decoration: none;
+    background-color: #4a4abd;
+    color: white;
+    padding: 6px 13px;
+    border-radius: 3px;
+ }
+ .myportfolio-link:hover{
+    color: #4a4abd;
+    background-color: white;
+    border: #333 solid 1px;
+    border-radius: 5px;
+ }
+ .profile-card2 .discription{
+    margin: 10px;
+    font-size: 15px;
+ }
+ 
+
  
